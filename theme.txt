@@ -1,27 +1,26 @@
 # GRUB2 gfxmenu Aero theme.
 # Designed for 1024x768 resolution.
 # Created by Legendary Bibo
+# Updated by @mcarneir0
 
 # Global Property
 title-text: ""
-title-font: "Sans Regular 12"
+title-font: "Consolas Regular 12"
 title-color: "#000000"
-message-font: "Fixed Regular 13"
+message-font: "Consolas Regular 12"
 message-color: "#FFFFFF"
 message-bg-color: "#f6f6f6"
 desktop-image: "Aero.png"
 desktop-color: "#000000"
 terminal-box: "menu_bkg_*.png"
-terminal-font: "Fixed Regular 13"
 
 # Show the boot menu
 + boot_menu {
 		left = 211
 		width = 585
 		top = 115
-		height = 531
-		item_font = "Sans Regular 12"
-		selected_item_font = "Sans Regular 14"
+		height = 521
+		item_font = "Consolas Regular 12"
 		item_color = "#000000"
 		selected_item_color = "#000000"
 		item_height = 41
@@ -41,12 +40,12 @@ terminal-font: "Fixed Regular 13"
 # Show a styled horizontal progress bar
 + progress_bar {
 		id = "__timeout__"
-		left = 211
-		width = 602
-		top = 648
+		left = 221
+		width = 580
+		top = 638
 		height = 23
 		show_text = false
-		font = "Sans Regular 10"
+		font = "Consolas Regular 12"
 		text_color = "255, 255, 255"
 		text = ""
 		bar_style = "progress_bar_*.png"
